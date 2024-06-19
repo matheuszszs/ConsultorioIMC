@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+  background: #d9ffff; 
+}
+
+header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.header {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    padding-top: 1rem;
+    border: 1px solid black;
+    background: #eaf6f6; 
+}
+
+.atendimentos{
+    background: #eaf6f6; 
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    top: 50%;
+    padding-top: 30px;
+    padding-left: 500px;
+    padding-bottom: 30px;
+}
+
+.button-18 {
+  align-items: center;
+  background-color: #a3c7eb;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto,Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  line-height: 20px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}
+
+.button-18:hover,
+.button-18:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled { 
+  cursor: not-allowed;
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.imagem1{
+    display: flex;
+    weight: 4rem;
+    height: 4rem;
+}
+.descricao{
+    background: #eaf6f6; 
+    border: 1px solid black;
+    display: flex;
+}
+.sobre{
+    padding: 15px;
+}
+.sobre h2{
+    text-align: center;
+}
+.sobre p{
+    text-align: justify;
+    text-indent: 20px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+
+.container_contato{
+  border: 1px solid black;
+}
+
+.container_contato h3{
+  border-radius: 75px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  margin-left: 400px;
+  margin-right: 500px;
+  width: 500px;
+  padding: 1rem;
+  border: 1px solid wheat;
+  font-size: 1.8rem;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  letter-spacing: 0.3rem;
+  background: rgb(234,246,246);
+  background: radial-gradient(circle, rgba(234,246,246,1) 0%, rgba(157,227,251,1) 100%);
+}
+
+.contato_texto{
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  background: rgb(234,246,246);
+  background: radial-gradient(circle, rgba(234,246,246,1) 0%, rgba(157,227,251,1) 100%);
+}
+
+.contato_texto .links {
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contato_texto .links2 {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+.rodape {
+  text-align: center;
+  margin-top: 10px;
+  background: #eaf6f6; 
+}
